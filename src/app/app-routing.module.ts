@@ -17,11 +17,10 @@ import { DetailComponent } from './profile/detail/detail.component';
 							path: '',
 							component: PersonalComponent,
 						},
-            {
+						{
 							path: 'cv/:item',
 							component: DetailComponent,
 						},
-
 					],
 				},
 

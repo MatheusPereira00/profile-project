@@ -42,12 +42,9 @@ export class AppMenuComponent implements OnInit {
 
 	user$: Observable<string>;
 
-	constructor(
-		public appMain: AppMainComponent,
-	) {}
+	constructor(public appMain: AppMainComponent) {}
 
 	ngOnInit() {
-
 		this.menuItems = menuItems;
 	}
 

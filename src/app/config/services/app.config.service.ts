@@ -14,7 +14,7 @@ const defaultConfig = {
 })
 export class ConfigService {
 	config: AppConfig =
-		JSON.parse(localStorage.getItem('@skill-mapping: config')) || defaultConfig;
+		JSON.parse(localStorage.getItem('@lspeixoto: config')) || defaultConfig;
 
 	private configUpdate = new Subject<AppConfig>();
 

@@ -6,7 +6,7 @@
 	"version": 1,
 	"newProjectRoot": "projects",
 	"projects": {
-		"skill_mapping": {
+		"profile": {
 			"projectType": "application",
 			"schematics": {
 				"@schematics/angular:component": {
@@ -20,7 +20,7 @@
 				"build": {
 					"builder": "@angular-devkit/build-angular:browser",
 					"options": {
-						"outputPath": "dist/skill_mapping",
+						"outputPath": "dist/profile",
 						"index": "src/index.html",
 						"main": "src/main.ts",
 						"polyfills": "src/polyfills.ts",
@@ -72,10 +72,10 @@
 					"builder": "@angular-devkit/build-angular:dev-server",
 					"configurations": {
 						"production": {
-							"browserTarget": "skill_mapping:build:production"
+							"browserTarget": "profile:build:production"
 						},
 						"development": {
-							"browserTarget": "skill_mapping:build:development"
+							"browserTarget": "profile:build:development"
 						}
 					},
 					"defaultConfiguration": "development"
@@ -83,7 +83,7 @@
 				"extract-i18n": {
 					"builder": "@angular-devkit/build-angular:extract-i18n",
 					"options": {
-						"browserTarget": "skill_mapping:build"
+						"browserTarget": "profile:build"
 					}
 				},
 				"test": {
@@ -102,5 +102,5 @@
 			}
 		}
 	},
-	"defaultProject": "skill_mapping"
+	"defaultProject": "profile"
 }

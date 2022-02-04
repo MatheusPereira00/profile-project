@@ -1,12 +1,5 @@
-<div class="layout-topbar">
-	<a class="layout-topbar-logo" routerLink="">
-		<img
-			src="assets/images/{{
-				appMain.config.dark ? 'logo-white' : 'logo-dark'
-			}}.svg"
-			alt="logo"
-		/>
-	</a>
+<div class="layout-topbar" >
+
 
 	<a
 		class="p-link layout-menu-button layout-topbar-button"
@@ -14,6 +7,10 @@
 		(click)="appMain.toggleMenu($event)"
 	>
 		<i class="pi pi-bars"></i>
+	</a>
+
+  <a class="p-link mt-3 layout-topbar-title" routerLink="/">
+		<h2 class="text-primary">Lucas Peixoto</h2>
 	</a>
 
 	<a
@@ -30,13 +27,13 @@
 			'layout-topbar-menu-mobile-active': appMain.topMenuActive
 		}"
 	>
-		<a class="p-link layout-topbar-button">
-			<i class="pi pi-bell"></i>
-			<span>Notificações</span>
+		<a class="p-link layout-topbar-button p-1">
+			<img src="../../../../assets/images/brazil.png"/>
+      <span>Português</span>
 		</a>
-		<a href="#" class="p-link layout-topbar-button">
-			<i class="pi pi-sign-out"></i>
-			<span>Sair</span>
+		<a class="p-link layout-topbar-button p-1">
+			<img src="../../../../assets/images/usa.png"/>
+			<span>Inglês</span>
 		</a>
 	</div>
 </div>

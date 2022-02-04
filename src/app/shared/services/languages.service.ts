@@ -28,7 +28,7 @@ export class LanguagesService {
 	 *
 	 */
 	getSelectLanguage() {
-		let language = localStorage.getItem('@skill-mapping:language');
+		let language = localStorage.getItem('@lspeixoto:language');
 		if (language) {
 			if (
 				language === null ||
@@ -36,12 +36,12 @@ export class LanguagesService {
 				language == 'undefined'
 			) {
 				this.transloco.setActiveLang('pt-br');
-				localStorage.setItem('@skill-mapping:language', 'pt-br');
+				localStorage.setItem('@lspeixoto:language', 'pt-br');
 			} else {
 				this.transloco.setActiveLang(language);
 			}
 		} else {
-			localStorage.setItem('@skill-mapping:language', 'pt-br');
+			localStorage.setItem('@lspeixoto:language', 'pt-br');
 		}
 		this.transloco.getActiveLang();
 	}
@@ -92,6 +92,6 @@ export class LanguagesService {
 	 *
 	 */
 	setLanguageSelected(language: string) {
-		localStorage.setItem('@skill-mapping:language', language);
+		localStorage.setItem('@lspeixoto:language', language);
 	}
 }

@@ -1,9 +1,9 @@
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 
-import { PersonalComponent } from './personal/personal/personal.component';
+import { PersonalComponent } from './profile/personal/personal.component';
 import { AppMainComponent } from './app.main.component';
-import { DetailComponent } from './personal/detail/detail.component';
+import { DetailComponent } from './profile/detail/detail.component';
 
 @NgModule({
 	imports: [

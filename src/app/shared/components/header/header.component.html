@@ -1,6 +1,4 @@
-<div class="layout-topbar" >
-
-
+<div class="layout-topbar">
 	<a
 		class="p-link layout-menu-button layout-topbar-button"
 		href="#"
@@ -9,7 +7,7 @@
 		<i class="pi pi-bars"></i>
 	</a>
 
-  <a class="p-link mt-3 layout-topbar-title" routerLink="/">
+	<a class="p-link mt-3 layout-topbar-title" routerLink="/">
 		<h2 class="text-primary">Lucas Peixoto</h2>
 	</a>
 
@@ -27,13 +25,21 @@
 			'layout-topbar-menu-mobile-active': appMain.topMenuActive
 		}"
 	>
-		<a class="p-link layout-topbar-button p-1">
-			<img src="assets/images/brazil.png" alt="brazil"/>
-      <span>Português</span>
+		<a
+			class="p-link layout-topbar-button p-1"
+			[ngClass]="activeLanguage === 'pt-br' ? 'layout-selected-language' : ''"
+			(click)="languages.setLanguageBr(); updateLanguage()"
+		>
+			<img src="assets/images/brazil.png" alt="brazil" />
+			<span>{{ 'header.portuguese' | transloco }}</span>
 		</a>
-		<a class="p-link layout-topbar-button p-1">
-			<img src="assets/images/usa.png" alt="usa"/>
-			<span>Inglês</span>
+		<a
+			class="p-link layout-topbar-button p-1"
+			[ngClass]="activeLanguage === 'en-us' ? 'layout-selected-language' : ''"
+			(click)="languages.setLanguageEn(); updateLanguage()"
+		>
+			<img src="assets/images/usa.png" alt="usa" />
+			<span>{{ 'header.english' | transloco }}</span>
 		</a>
 	</div>
 </div>

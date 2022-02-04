@@ -13,7 +13,7 @@ import { ConfigService } from '@config/services/app.config.service';
 export class AppConfigComponent implements OnInit, OnDestroy {
 	scale: number = 14;
 
-	scales: number[] = [12, 13, 14, 15, 16];
+	scales: number[] = [11, 12, 13, 14, 15, 16, 17];
 
 	config: AppConfig;
 
@@ -85,7 +85,7 @@ export class AppConfigComponent implements OnInit, OnDestroy {
 	}
 
 	setConfigLocally(config: AppConfig) {
-		localStorage.setItem('@skill-mapping: config', JSON.stringify(config));
+		localStorage.setItem('@lspeixoto: config', JSON.stringify(config));
 	}
 
 	ngOnDestroy() {

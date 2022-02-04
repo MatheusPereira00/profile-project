@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { AppMainComponent } from './app.main.component';
-import * as fromRoot from '@app/app.reducer';
-import { Store } from '@ngrx/store';
 
 import { Observable } from 'rxjs';
 
@@ -12,13 +10,7 @@ import { menuItems } from './shared/helpers/menu-items-options';
 	selector: 'app-menu',
 	template: `
 		<div class="layout-menu-container">
-			<!-- <span class="mb-2 ml-0 mr-0 ">
-				{{ 'header.hello' | transloco }}
-				<b style="color:var(--primary-color)">{{
-					(user$ | async) ? (user$ | async) : ('header.username' | transloco)
-				}}</b>
-			</span> -->
-			<ul class="layout-menu mt-5" role="menu" (keydown)="onKeydown($event)">
+			<ul class="layout-menu mt-3" role="menu" (keydown)="onKeydown($event)">
 				<li
 					app-menu
 					class="layout-menuitem-category"
@@ -52,7 +44,6 @@ export class AppMenuComponent implements OnInit {
 
 	constructor(
 		public appMain: AppMainComponent,
-		private store: Store<fromRoot.AppState>,
 	) {}
 
 	ngOnInit() {

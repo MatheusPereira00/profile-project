@@ -1,7 +1,7 @@
-import { environment } from './src/environments/environment.prod';
+import { environment } from '@envs/environment.prod';
 
 module.exports = {
-	rootTranslationsPath: 'src/assets/i18n/',
+	rootTranslationsPath: '@assets/i18n/',
 	langs: ['en-us', 'es-es', 'pt-br'],
 	keysManager: {},
   flatten: {

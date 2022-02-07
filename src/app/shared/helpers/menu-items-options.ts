@@ -47,7 +47,7 @@ export const menuItems: MenuItems[] = [
 				target: '_blank',
 			},
 			{
-				label: 'Instragram',
+				label: 'Instagram',
 				icon: 'pi pi-instagram',
 				url: ['https://www.instagram.com/lucas.speixoto/'],
 				target: '_blank',

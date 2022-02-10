@@ -15,12 +15,12 @@ export const menuItems: MenuItems[] = [
 				routerLink: ['cv', 'sobre-min'],
 			},
 			{
-				label: 'Experiências',
+				label: 'Experiências Profissionais',
 				icon: 'pi pi-id-card',
 				routerLink: ['cv', 'experiencias'],
 			},
 			{
-				label: 'Formação',
+				label: 'Formações e Cursos',
 				icon: 'pi pi-home',
 				routerLink: ['cv', 'formacao'],
 			},

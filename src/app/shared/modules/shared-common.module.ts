@@ -10,12 +10,20 @@ import { FooterComponent } from '@shared/components/footer/footer.component';
 
 import { LoadingComponent } from '@shared/components/loading/loading.component';
 import { ErrorMessageComponent } from '@shared/components/error-message/error-message.component';
+import { AboutMeComponent } from '@app/profile/items/about-me/about-me.component';
+import { ExperiencesComponent } from '@app/profile/items/experiences/experiences.component';
+import { FormationsComponent } from '@app/profile/items/formations/formations.component';
+import { ProjectsComponent } from '@app/profile/items/projects/projects.component';
 
 @NgModule({
 	declarations: [
 		HeaderComponent,
 		FooterComponent,
 		LoadingComponent,
+    AboutMeComponent,
+    ExperiencesComponent,
+    FormationsComponent,
+    ProjectsComponent,
 		ErrorMessageComponent,
 	],
 	imports: [
@@ -31,6 +39,10 @@ import { ErrorMessageComponent } from '@shared/components/error-message/error-me
 		HeaderComponent,
 		FooterComponent,
 		LoadingComponent,
+    AboutMeComponent,
+    ExperiencesComponent,
+    FormationsComponent,
+    ProjectsComponent,
 		ErrorMessageComponent,
 	],
 })

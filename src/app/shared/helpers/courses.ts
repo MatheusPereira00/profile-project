@@ -1,5 +1,12 @@
 export const Courses = [
 	{
+		name: 'React Native: Começando do zero',
+		institution: 'Alura',
+		end: '02/2022',
+		url: 'https://cursos.alura.com.br/certificate/bc787e4f-a028-4ac8-9268-d6e65906f6f6',
+		credential: 'bc787e4f-a028-4ac8-9268-d6e65906f6f6',
+	},
+	{
 		name: 'Dart: Dominando a Orientação a Objetos',
 		institution: 'Alura',
 		end: '02/2022',
@@ -13,70 +20,63 @@ export const Courses = [
 		url: 'https://cursos.alura.com.br/certificate/be43b038-be48-45db-9085-a2ffcd66cdb5',
 		credential: 'be43b038-be48-45db-9085-a2ffcd66cdb5',
 	},
-  {
-		name: 'React Native: Começando do zero',
-		institution: 'Alura',
-		end: '02/2022',
-		url: 'https://cursos.alura.com.br/certificate/bc787e4f-a028-4ac8-9268-d6e65906f6f6',
-		credential: 'bc787e4f-a028-4ac8-9268-d6e65906f6f6',
-	},
-  {
+	{
 		name: 'React e TypeScript: desenvolvendo um Dashboard',
 		institution: 'Udemy',
 		end: '11/2021',
 		url: 'https://www.udemy.com/certificate/UC-1553f035-f399-4d49-af1a-261b35d6fdca/',
 		credential: 'UC-1553f035-f399-4d49-af1a-261b35d6fdca',
 	},
-  {
+	{
 		name: 'Angular Forms In Depth',
 		institution: 'Angular University',
 		end: '10/2021',
 		url: 'https://www.udemy.com/certificate/UC-27bf0fdf-ce24-484e-826c-8424f8c8f78b/',
 		credential: 'UC-27bf0fdf-ce24-484e-826c-8424f8c8f78b',
 	},
-  {
+	{
 		name: 'Angular Router In Depth',
 		institution: 'Angular University',
 		end: '10/2021',
 		url: 'https://www.udemy.com/certificate/UC-e95ceb41-9ee9-4c35-88dc-9160b0c2c88b/',
 		credential: 'UC-e95ceb41-9ee9-4c35-88dc-9160b0c2c88b',
 	},
-  {
+	{
 		name: 'Angular',
 		institution: 'Loiane Training',
 		end: '09/2021',
 		url: 'https://loiane.training/certificado/fiWewOBW7TI9Y6KCUGsG',
 		credential: 'fiWewOBW7TI9Y6KCUGsG',
 	},
-  {
+	{
 		name: 'NgRx (with NgRx Data) - The Complete Guide',
 		institution: 'Angular University',
 		end: '09/2021',
 		url: 'https://www.udemy.com/certificate/UC-ecb0b291-1099-4e36-8c9e-6b1b4a46ca55/',
 		credential: 'UC-ecb0b291-1099-4e36-8c9e-6b1b4a46ca55',
 	},
-  {
+	{
 		name: 'REDUX en Angular con NGRX: Desde las bases hasta la práctica',
 		institution: 'Udemy',
 		end: '09/2021',
 		url: 'https://www.udemy.com/certificate/UC-77779271-c201-45ce-b2b1-7eabedbefe03/',
 		credential: 'UC-77779271-c201-45ce-b2b1-7eabedbefe03',
 	},
-  {
+	{
 		name: 'RxJs In Practice',
 		institution: 'Angular University',
 		end: '09/2021',
 		url: 'https://www.udemy.com/certificate/UC-752f8eba-1cd9-4004-a2bc-26c987303257/',
 		credential: 'UC-752f8eba-1cd9-4004-a2bc-26c987303257',
 	},
-  {
+	{
 		name: 'Angular (Full App) with Angular Material, Angularfire & NgRx',
 		institution: 'Udemy',
 		end: '08/2021',
 		url: 'https://www.udemy.com/certificate/UC-aa82e529-8e81-4c42-9623-ab5b8e029c38/',
 		credential: 'UC-aa82e529-8e81-4c42-9623-ab5b8e029c38',
 	},
-  {
+	{
 		name: 'Master Electron: Desktop Apps with HTML, JavaScript & CSS',
 		institution: 'Udemy',
 		end: '03/2021',

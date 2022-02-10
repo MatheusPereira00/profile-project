@@ -5,7 +5,7 @@ export const menuItems: MenuItems[] = [
 		label: 'Currículo',
 		items: [
 			{
-				label: 'Início',
+				label: 'Apresentação',
 				icon: 'pi pi-home',
 				routerLink: ['/'],
 			},

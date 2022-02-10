@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { paragraphs } from '@app/shared/helpers/about-me-paragraphs';
+import { Paragraphs } from '@app/shared/helpers/about-me-paragraphs';
 
 @Component({
 	selector: 'app-about-me',
@@ -12,6 +12,6 @@ export class AboutMeComponent implements OnInit {
 	constructor() {}
 
 	ngOnInit() {
-		this.paragraphs = paragraphs;
+		this.paragraphs = Paragraphs;
 	}
 }

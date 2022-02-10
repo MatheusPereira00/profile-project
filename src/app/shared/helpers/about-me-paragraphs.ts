@@ -1,5 +1,5 @@
-export const paragraphs = [
-	'Sou formado em engenheiro agrícola pela Universidade Estadual de Campinas (Unicamp), mestre em Engenharia agrícola também.',
+export const Paragraphs = [
+	'Sou formado em engenharia agrícola pela Universidade Estadual de Campinas (Unicamp), mestre em modelagem estrutural de vigas de madeira laminada colada armada (MLCA).',
 	'Em 2015 tive meu primeiro contato com a programação, onde iniciei aprendendo python enquanto finalizava minha graduação.',
 	'Em 2017 já dominava a linguagem e iniciei uma especialização em mineração de dados com objetivo conhecer um pouco da inteligência artificial.',
 	'No início de 2020 tive minha primeira atuação profissional como contrato, foi como trainee na Stefanini, onde desenvolvi diversas rotinas de automatização de processos para as equipes do  departamento pessoal da empresa. Essas rotinas envolviam disparos em  massa de comunicados via e-mail, geração de relatórios, RPAs entre outros.',

@@ -10,10 +10,11 @@ import { FooterComponent } from '@shared/components/footer/footer.component';
 
 import { LoadingComponent } from '@shared/components/loading/loading.component';
 import { ErrorMessageComponent } from '@shared/components/error-message/error-message.component';
-import { AboutMeComponent } from '@app/profile/items/about-me/about-me.component';
-import { ExperiencesComponent } from '@app/profile/items/experiences/experiences.component';
-import { FormationsComponent } from '@app/profile/items/formations/formations.component';
-import { ProjectsComponent } from '@app/profile/items/projects/projects.component';
+import { AboutMeComponent } from '@app/profile/topics/about-me/about-me.component';
+import { ExperiencesComponent } from '@app/profile/topics/experiences/experiences.component';
+import { FormationsComponent } from '@app/profile/topics/formations/formations.component';
+import { SkillsComponent } from '@app/profile/topics/skills/skills.component';
+import { CoursesComponent } from '@app/profile/topics/courses/courses.component';
 
 @NgModule({
 	declarations: [
@@ -22,8 +23,9 @@ import { ProjectsComponent } from '@app/profile/items/projects/projects.componen
 		LoadingComponent,
     AboutMeComponent,
     ExperiencesComponent,
+    CoursesComponent,
     FormationsComponent,
-    ProjectsComponent,
+    SkillsComponent,
 		ErrorMessageComponent,
 	],
 	imports: [
@@ -41,8 +43,9 @@ import { ProjectsComponent } from '@app/profile/items/projects/projects.componen
 		LoadingComponent,
     AboutMeComponent,
     ExperiencesComponent,
+    CoursesComponent,
     FormationsComponent,
-    ProjectsComponent,
+    SkillsComponent,
 		ErrorMessageComponent,
 	],
 })

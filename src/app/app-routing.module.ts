@@ -30,7 +30,7 @@ import { CoursesComponent } from './profile/topics/courses/courses.component';
 							path: 'cv/experiencias',
 							component: ExperiencesComponent,
 						},
-            {
+						{
 							path: 'cv/cursos',
 							component: CoursesComponent,
 						},

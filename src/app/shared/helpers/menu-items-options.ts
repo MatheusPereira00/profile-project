@@ -24,7 +24,7 @@ export const menuItems: MenuItems[] = [
 				icon: 'pi pi-book',
 				routerLink: ['cv', 'cursos'],
 			},
-      {
+			{
 				label: 'Formações',
 				icon: 'pi pi-home',
 				routerLink: ['cv', 'formacoes'],

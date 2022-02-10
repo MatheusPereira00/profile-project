@@ -15,9 +15,9 @@
 					background: var(--primary-color);
 				"
 			>
-				<div class="p-3 surface-card h-full" style="border-radius: 8px">
+				<div class="p-1 surface-card h-full" style="border-radius: 8px">
 					<div
-						class="flex align-items-center justify-content-center bg-purple-200 mb-3"
+						class="flex align-items-center justify-content-center bg-purple-200 m-3"
 						style="width: 3.5rem; height: 3.5rem; border-radius: 10px"
 					>
 						<i class="pi pi-fw pi-book text-2xl text-purple-700"></i>
@@ -43,13 +43,13 @@
 							<h5 class="text-blue-500 mr-1">
 								Url:
 								<a
-									class="underline p-link text-xl text-white-alpha-80"
+									class="underline p-link text-xl"
+									style="color: var(--text-color); word-break: break-word"
 									[href]="course.url"
 									target="_blank"
 								>
-									<span >{{ course.url }}</span>
+									<span>{{ course.url }}</span>
 								</a>
-
 							</h5>
 						</div>
 						<div>

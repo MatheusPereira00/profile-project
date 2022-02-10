@@ -15,16 +15,19 @@
 					background: var(--primary-color);
 				"
 			>
-				<div class="p-3 surface-card h-full" style="border-radius: 8px">
+				<div class="p-1 surface-card h-full" style="border-radius: 8px">
 					<div
-						class="flex align-items-center justify-content-center bg-yellow-200 mb-3"
+						class="flex align-items-center justify-content-center bg-yellow-200 m-3"
 						style="width: 3.5rem; height: 3.5rem; border-radius: 10px"
 					>
 						<i class="pi pi-fw pi-user text-2xl text-yellow-700"></i>
 					</div>
 
 					<div *ngFor="let paragraph of paragraphs">
-						<p class="white-space-normal mb-2 text-900 text-xl" style="white-space: pre-wrap">
+						<p
+							class="white-space-normal m-3 text-900 text-xl"
+							style="white-space: pre-wrap"
+						>
 							{{ paragraph }}
 						</p>
 					</div>

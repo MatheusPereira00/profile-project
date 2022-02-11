@@ -20,6 +20,13 @@ export const Courses = [
 		url: 'https://cursos.alura.com.br/certificate/be43b038-be48-45db-9085-a2ffcd66cdb5',
 		credential: 'be43b038-be48-45db-9085-a2ffcd66cdb5',
 	},
+  {
+		name: 'React, NodeJS, Express & MongoDB - The MERN Fullstack Guide',
+		institution: 'Academind',
+		end: '02/2022',
+		url: 'https://www.udemy.com/certificate/UC-57a79c18-9912-43ba-87d9-4562697bf184/',
+		credential: 'UC-57a79c18-9912-43ba-87d9-4562697bf184',
+	},
 	{
 		name: 'React e TypeScript: desenvolvendo um Dashboard',
 		institution: 'Udemy',

@@ -14,7 +14,7 @@ import { AboutMeComponent } from '@app/profile/topics/about-me/about-me.componen
 import { ExperiencesComponent } from '@app/profile/topics/experiences/experiences.component';
 import { FormationsComponent } from '@app/profile/topics/formations/formations.component';
 import { SkillsComponent } from '@app/profile/topics/skills/skills.component';
-import { CoursesComponent } from '@app/profile/topics/courses/courses.component';
+import { CertificationsComponent } from '@app/profile/topics/certifications/certifications.component';
 
 @NgModule({
 	declarations: [
@@ -23,7 +23,7 @@ import { CoursesComponent } from '@app/profile/topics/courses/courses.component'
 		LoadingComponent,
 		AboutMeComponent,
 		ExperiencesComponent,
-		CoursesComponent,
+		CertificationsComponent,
 		FormationsComponent,
 		SkillsComponent,
 		ErrorMessageComponent,
@@ -43,7 +43,7 @@ import { CoursesComponent } from '@app/profile/topics/courses/courses.component'
 		LoadingComponent,
 		AboutMeComponent,
 		ExperiencesComponent,
-		CoursesComponent,
+		CertificationsComponent,
 		FormationsComponent,
 		SkillsComponent,
 		ErrorMessageComponent,

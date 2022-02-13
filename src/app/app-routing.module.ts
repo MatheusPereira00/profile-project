@@ -7,7 +7,8 @@ import { AboutMeComponent } from './profile/topics/about-me/about-me.component';
 import { ExperiencesComponent } from './profile/topics/experiences/experiences.component';
 import { FormationsComponent } from './profile/topics/formations/formations.component';
 import { SkillsComponent } from './profile/topics/skills/skills.component';
-import { CoursesComponent } from './profile/topics/courses/courses.component';
+import { CertificationsComponent } from './profile/topics/certifications/certifications.component';
+import { ProjectsComponent } from './profile/topics/projects/projects.component';
 
 @NgModule({
 	imports: [
@@ -31,8 +32,8 @@ import { CoursesComponent } from './profile/topics/courses/courses.component';
 							component: ExperiencesComponent,
 						},
 						{
-							path: 'cv/cursos',
-							component: CoursesComponent,
+							path: 'cv/certificacoes',
+							component: CertificationsComponent,
 						},
 						{
 							path: 'cv/formacoes',
@@ -41,6 +42,10 @@ import { CoursesComponent } from './profile/topics/courses/courses.component';
 						{
 							path: 'cv/competencias',
 							component: SkillsComponent,
+						},
+            {
+							path: 'cv/projetos',
+							component: ProjectsComponent,
 						},
 					],
 				},

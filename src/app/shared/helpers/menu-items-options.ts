@@ -20,9 +20,9 @@ export const menuItems: MenuItems[] = [
 				routerLink: ['cv', 'experiencias'],
 			},
 			{
-				label: 'Cursos',
+				label: 'Certificações',
 				icon: 'pi pi-book',
-				routerLink: ['cv', 'cursos'],
+				routerLink: ['cv', 'certificacoes'],
 			},
 			{
 				label: 'Formações',
@@ -34,6 +34,11 @@ export const menuItems: MenuItems[] = [
 				icon: 'pi pi-list',
 				routerLink: ['cv', 'competencias'],
 			},
+      /* {
+				label: 'Projetos',
+				icon: 'pi pi-user-edit',
+				routerLink: ['cv', 'projetos'],
+			}, */
 		],
 	},
 	{

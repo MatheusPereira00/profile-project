@@ -10,11 +10,11 @@ interface ICourse {
 }
 
 @Component({
-	selector: 'app-courses',
-	templateUrl: './courses.component.html',
+	selector: 'app-certifications',
+	templateUrl: './certifications.component.html',
 	styles: [''],
 })
-export class CoursesComponent implements OnInit {
+export class CertificationsComponent implements OnInit {
 	courses: ICourse[];
 
 	constructor() {}

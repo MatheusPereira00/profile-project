@@ -1,10 +1,10 @@
 export const Courses = [
 	{
-		name: 'React Native: Começando do zero',
+		name: 'Fundamentos de Flutter: Crie o seu primeiro App',
 		institution: 'Alura',
 		end: '02/2022',
-		url: 'https://cursos.alura.com.br/certificate/bc787e4f-a028-4ac8-9268-d6e65906f6f6',
-		credential: 'bc787e4f-a028-4ac8-9268-d6e65906f6f6',
+		url: 'https://cursos.alura.com.br/certificate/099eb373-5f4e-487f-9473-bb332556f770',
+		credential: '099eb373-5f4e-487f-9473-bb332556f770',
 	},
 	{
 		name: 'Dart: Dominando a Orientação a Objetos',
@@ -20,7 +20,14 @@ export const Courses = [
 		url: 'https://cursos.alura.com.br/certificate/be43b038-be48-45db-9085-a2ffcd66cdb5',
 		credential: 'be43b038-be48-45db-9085-a2ffcd66cdb5',
 	},
-  {
+	{
+		name: 'React Native: Começando do zero',
+		institution: 'Alura',
+		end: '02/2022',
+		url: 'https://cursos.alura.com.br/certificate/bc787e4f-a028-4ac8-9268-d6e65906f6f6',
+		credential: 'bc787e4f-a028-4ac8-9268-d6e65906f6f6',
+	},
+	{
 		name: 'React, NodeJS, Express & MongoDB - The MERN Fullstack Guide',
 		institution: 'Academind',
 		end: '02/2022',

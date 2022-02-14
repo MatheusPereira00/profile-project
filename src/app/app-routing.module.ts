@@ -43,7 +43,7 @@ import { ProjectsComponent } from './profile/topics/projects/projects.component'
 							path: 'cv/competencias',
 							component: SkillsComponent,
 						},
-            {
+						{
 							path: 'cv/projetos',
 							component: ProjectsComponent,
 						},

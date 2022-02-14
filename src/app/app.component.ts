@@ -31,8 +31,8 @@ export class AppComponent {
 
 	constructor(
 		private primengConfig: PrimeNGConfig,
-		/* private languages: LanguagesService, */
-	) {}
+	) /* private languages: LanguagesService, */
+	{}
 
 	ngOnInit() {
 		this.setDefaultConfig();

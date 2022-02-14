@@ -1,4 +1,4 @@
-export const Courses = [
+export const Certifications = [
 	{
 		name: 'Fundamentos de Flutter: Crie o seu primeiro App',
 		institution: 'Alura',

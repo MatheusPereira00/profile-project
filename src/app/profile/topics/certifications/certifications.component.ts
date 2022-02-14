@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Courses } from '@app/shared/helpers/courses';
+import { Certifications } from '@app/shared/helpers/certifications';
 
-interface ICourse {
+interface ICertification {
 	name: string;
 	institution: string;
 	end: string;
@@ -15,11 +15,11 @@ interface ICourse {
 	styles: [''],
 })
 export class CertificationsComponent implements OnInit {
-	courses: ICourse[];
+	certifications: ICertification[];
 
 	constructor() {}
 
 	ngOnInit() {
-		this.courses = Courses;
+		this.certifications = Certifications;
 	}
 }

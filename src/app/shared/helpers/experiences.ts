@@ -4,7 +4,7 @@ export const Experiences = [
 		company: 'Stefanini Brasil',
 		period: '11/2021 - Atual',
 		tasks:
-			'Atuação como desenvolvedor frontend (Angular + PrimeNg), (React + MaterialUI) em projetos paramelhoria de processos internos na Stefanini. Participação em diversosprocessos de estudo e implementação de novas estruturas e arquiteturasde código para aumentar escalabilidade de projetos e qualidade de código.Os projetos são direcionados para as equipes de recrutamento e seleção,departamento pessoal e comercial.',
+			'Atuação como desenvolvedor frontend (Angular + PrimeNg), (React + Material UI) em projetos para melhoria de processos internos na Stefanini. Participação em diversos processos de estudo e implementação de novas estruturas e arquiteturasde código para aumentar escalabilidade de projetos e qualidade de código. Os projetos são direcionados para as equipes de recrutamento e seleção,departamento pessoal e comercial.',
 	},
 	{
 		position: 'Desenvolvedor FullStack',
@@ -18,7 +18,7 @@ export const Experiences = [
 		company: 'Stefanini Brasil',
 		period: '02/2021 - 01/2021',
 		tasks:
-			'Atuação como desenvolvedor frontend (Angular + PrimeNg) em projetos paramelhoria de processos internos na Stefanini. Os projetos eram direcionadospara equipes de recrutamento e seleção, departamento pessoal e comercial.',
+			'Atuação como desenvolvedor frontend (Angular + PrimeNg) em projetos para melhoria de processos internos na Stefanini. Os projetos eram direcionados para equipes de recrutamento e seleção, departamento pessoal e comercial.',
 	},
 	{
 		position: 'Trainee',

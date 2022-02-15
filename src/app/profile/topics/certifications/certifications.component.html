@@ -16,11 +16,50 @@
 				"
 			>
 				<div class="p-1 surface-card h-full" style="border-radius: 8px">
-					<div
-						class="flex align-items-center justify-content-center bg-purple-200 m-3"
-						style="width: 3.5rem; height: 3.5rem; border-radius: 10px"
-					>
-						<i class="pi pi-fw pi-book text-2xl text-purple-700"></i>
+					<div class="flex align-items-center justify-content-between">
+						<div class="logo">
+							<div
+								class="flex align-items-center justify-content-center bg-purple-200 m-3 logo"
+								style="width: 3.5rem; height: 3.5rem; border-radius: 10px"
+							>
+								<i class="pi pi-fw pi-book text-2xl text-purple-700"></i>
+							</div>
+						</div>
+
+						<div class="sm:ml-10">
+							<p-dropdown
+								[options]="filters"
+								[(ngModel)]="selectedCertification"
+								optionLabel="name"
+								[filter]="true"
+								filterBy="name"
+								[showClear]="true"
+								placeholder="Categoria"
+								(onChange)="filter($event)"
+								class="w-10rem"
+							>
+								<ng-template pTemplate="selectedItem">
+									<div *ngIf="selectedCertification">
+										<div>{{ selectedCertification.name }}</div>
+									</div>
+								</ng-template>
+								<ng-template let-certification pTemplate="item">
+									<div
+										class="w-10rem flex align-items-center justify-content-start"
+									>
+										<div class="mr-1">
+											<img
+												class="w-2rem h-2rem"
+												src="assets/images/{{ certification.logo }}.png"
+											/>
+										</div>
+										<div class="ml-1">
+											<div>{{ certification.name }}</div>
+										</div>
+									</div>
+								</ng-template>
+							</p-dropdown>
+						</div>
 					</div>
 
 					<div

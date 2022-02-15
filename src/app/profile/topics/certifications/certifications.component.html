@@ -16,7 +16,7 @@
 				"
 			>
 				<div class="p-1 surface-card h-full" style="border-radius: 8px">
-					<div class="flex align-items-center justify-content-between">
+					<div class="z-1 flex align-items-center justify-content-between">
 						<div class="logo">
 							<div
 								class="flex align-items-center justify-content-center bg-purple-200 m-3 logo"
@@ -31,7 +31,8 @@
 								[options]="filters"
 								[(ngModel)]="selectedCertification"
 								optionLabel="name"
-								[filter]="true"
+								[virtualScroll]="true"
+								[itemSize]="certifications.length"
 								filterBy="name"
 								[showClear]="true"
 								placeholder="Categoria"
@@ -45,7 +46,7 @@
 								</ng-template>
 								<ng-template let-certification pTemplate="item">
 									<div
-										class="w-10rem flex align-items-center justify-content-start"
+										class="w-10rem p-0 h-full flex align-items-center justify-content-start"
 									>
 										<div class="mr-1">
 											<img
@@ -63,7 +64,7 @@
 					</div>
 
 					<div
-						class="ml-4 mb-4 p-1 list-disc"
+						class="z-0 ml-4 mb-4 p-1 list-disc"
 						*ngFor="let certification of certifications"
 					>
 						<p class="text-2xl font-medium mb-0 block">

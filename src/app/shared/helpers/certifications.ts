@@ -118,6 +118,13 @@ export const Node = [
 ];
 
 export const Flutter = [
+  {
+		name: 'Flutter: Desenvolva o layout para uma aplicação',
+		institution: 'Alura',
+		end: '02/2022',
+		url: 'https://cursos.alura.com.br/certificate/9b651b17-be15-4707-ab56-79e099e98a10',
+		credential: '9b651b17-be15-4707-ab56-79e099e98a10',
+	},
 	{
 		name: 'Fundamentos de Flutter: Crie o seu primeiro App',
 		institution: 'Alura',
@@ -142,6 +149,13 @@ export const Flutter = [
 ];
 
 export const Certifications = [
+  {
+		name: 'Flutter: Desenvolva o layout para uma aplicação',
+		institution: 'Alura',
+		end: '02/2022',
+		url: 'https://cursos.alura.com.br/certificate/9b651b17-be15-4707-ab56-79e099e98a10',
+		credential: '9b651b17-be15-4707-ab56-79e099e98a10',
+	},
 	{
 		name: 'Fundamentos de Flutter: Crie o seu primeiro App',
 		institution: 'Alura',

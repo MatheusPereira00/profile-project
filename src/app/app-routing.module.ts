@@ -22,7 +22,6 @@ import { ProjectsComponent } from './profile/topics/projects/projects.component'
 							path: '',
 							component: PersonalComponent,
 						},
-
 						{
 							path: 'cv/sobre-min',
 							component: AboutMeComponent,

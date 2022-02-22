@@ -119,6 +119,13 @@ export const Node = [
 
 export const Flutter = [
   {
+		name: 'Flutter com web API: integrando sua app mobile',
+		institution: 'Alura',
+		end: '21/02/2022',
+		url: 'https://cursos.alura.com.br/certificate/e88c4244-cbfa-4254-87d9-18ffc4ba2a83',
+		credential: 'e88c4244-cbfa-4254-87d9-18ffc4ba2a83',
+	},
+  {
 		name: 'Persistência com Flutter: Crie um app com armazenamento interno',
 		institution: 'Alura',
 		end: '18/02/2022',
@@ -156,6 +163,13 @@ export const Flutter = [
 ];
 
 export const Certifications = [
+  {
+		name: 'Flutter com web API: integrando sua app mobile',
+		institution: 'Alura',
+		end: '21/02/2022',
+		url: 'https://cursos.alura.com.br/certificate/e88c4244-cbfa-4254-87d9-18ffc4ba2a83',
+		credential: 'e88c4244-cbfa-4254-87d9-18ffc4ba2a83',
+	},
   {
 		name: 'Persistência com Flutter: Crie um app com armazenamento interno',
 		institution: 'Alura',

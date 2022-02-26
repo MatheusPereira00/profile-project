@@ -1,7 +1,7 @@
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 
-import { PersonalComponent } from './profile/personal/personal.component';
+import { PersonalComponent } from './profile/topics/personal/personal.component';
 import { AppMainComponent } from './app.main.component';
 import { AboutMeComponent } from './profile/topics/about-me/about-me.component';
 import { ExperiencesComponent } from './profile/topics/experiences/experiences.component';

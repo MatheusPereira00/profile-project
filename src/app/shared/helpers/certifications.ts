@@ -1,4 +1,12 @@
 export const Certifications = [
+  {
+		name: 'Flutter: Gerenciamento de Estados com Provider',
+		institution: 'Alura',
+		end: '27/02/2022',
+		url: 'https://cursos.alura.com.br/certificate/558142a5-33f6-46e6-aca6-5d5e827762f4',
+		credential: '558142a5-33f6-46e6-aca6-5d5e827762f4',
+		type: ['flutter'],
+	},
 	{
 		name: 'Comunicação HTTP: Flutter com web API',
 		institution: 'Alura',

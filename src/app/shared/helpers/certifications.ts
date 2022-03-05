@@ -1,5 +1,13 @@
 export const Certifications = [
   {
+		name: 'Flutter 2.0: Crie aplicações responsivas para a Web',
+		institution: 'Udemy',
+		end: '04/03/2022',
+		url: 'https://www.udemy.com/certificate/UC-3275270a-caa1-4c07-a939-89e32a8ad99b',
+		credential: 'UC-3275270a-caa1-4c07-a939-89e32a8ad99b',
+		type: ['flutter'],
+	},
+  {
 		name: 'Flutter: Gerenciamento de Estados com Provider',
 		institution: 'Alura',
 		end: '27/02/2022',

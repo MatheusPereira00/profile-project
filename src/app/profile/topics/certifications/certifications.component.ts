@@ -31,12 +31,25 @@ const Filters = [
 	templateUrl: './certifications.component.html',
 	styles: [
 		`
+			.short_url {
+				display: none;
+			}
 			:host ::ng-deep .p-dropdown {
 				width: 14rem;
 			}
 
 			@media (max-width: 350px) {
 				.logo {
+					display: none;
+				}
+			}
+
+			@media (max-width: 490px) {
+				.short_url {
+					display: inline;
+				}
+
+				.long_url {
 					display: none;
 				}
 			}

@@ -16,7 +16,7 @@ export const Experiences = [
 	{
 		position: 'Analista de Sistemas Jr',
 		company: 'Stefanini Brasil',
-		period: '02/2021 - 01/2021',
+		period: '02/2021 - 11/2021',
 		tasks:
 			'Atuação como desenvolvedor frontend (Angular + PrimeNg) em projetos para melhoria de processos internos na Stefanini. Os projetos eram direcionados para equipes de recrutamento e seleção, departamento pessoal e comercial.',
 	},

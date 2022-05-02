@@ -1,5 +1,13 @@
 export const Certifications = [
   {
+		name: 'Entendendo TypeScript',
+		institution: 'Udemy',
+		end: '02/05/2022',
+		url: 'https://www.udemy.com/certificate/UC-dee17ed6-9ea6-4cd7-938d-eff66907a1b1',
+		credential: 'UC-dee17ed6-9ea6-4cd7-938d-eff66907a1b1',
+		type: ['typescript'],
+	},
+  {
 		name: 'Flutter 2.0: Crie aplicações responsivas para a Web',
 		institution: 'Udemy',
 		end: '04/03/2022',
@@ -93,7 +101,7 @@ export const Certifications = [
 		end: '23/11/2021',
 		url: 'https://www.udemy.com/certificate/UC-1553f035-f399-4d49-af1a-261b35d6fdca/',
 		credential: 'UC-1553f035-f399-4d49-af1a-261b35d6fdca',
-		type: ['react'],
+		type: ['react', 'typescript'],
 	},
 	{
 		name: 'Angular Forms In Depth',

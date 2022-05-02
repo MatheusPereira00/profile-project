@@ -17,10 +17,11 @@ interface IFilter {
 }
 
 const Filters = [
-	{ name: 'Git', code: 'git', logo: 'git_logo' },
 	{ name: 'Angular', code: 'angular', logo: 'angular_logo' },
 	{ name: 'React', code: 'react', logo: 'react_logo' },
+	{ name: 'TypeScript', code: 'typescript', logo: 'typescript_logo' },
 	{ name: 'Flutter', code: 'flutter', logo: 'flutter_logo' },
+	{ name: 'Git', code: 'git', logo: 'git_logo' },
 	{ name: 'React Native', code: 'react_native', logo: 'react_native_logo' },
 	{ name: 'Node JS', code: 'nodejs', logo: 'node_logo' },
 	{ name: 'MongoDB', code: 'mongodb', logo: 'mongo_logo' },

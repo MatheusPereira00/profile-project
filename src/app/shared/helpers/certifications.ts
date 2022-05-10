@@ -1,5 +1,13 @@
 export const Certifications = [
   {
+		name: 'Implement High Fidelity Designs with Material-UI and ReactJS',
+		institution: 'Udemy',
+		end: '09/05/2022',
+		url: 'https://www.udemy.com/certificate/UC-85a7d01c-a627-4734-a5f8-4a32b09fc720/',
+		credential: 'UC-85a7d01c-a627-4734-a5f8-4a32b09fc720',
+		type: ['react'],
+	},
+  {
 		name: 'Entendendo TypeScript',
 		institution: 'Udemy',
 		end: '02/05/2022',

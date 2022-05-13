@@ -16,9 +16,9 @@
 				"
 			>
 				<div class="p-3 surface-card h-full" style="border-radius: 8px">
-					<div>
+					<div class="flex justify-content-between flex-wrap">
 						<img
-							class="border-circle"
+							class="flex align-items-center justify-content-center border-circle"
 							src="https://lh3.googleusercontent.com/a-/AOh14Ghk0kzPqxBvQlkOUKpXj4NXGuWdZSyPz8YDSgSH=s96-c"
 						/>
 						<!-- <img
@@ -26,27 +26,27 @@
 							src="assets/images/foto.jpg"
 							alt="Logo"
 						/> -->
+						<button
+							pButton
+
+							label="Currículo"
+							icon="pi pi-file-pdf"
+							class="m-2 w-8rem h-2rem flex align-items-center justify-content-center"
+              (click)="openCurriculum()"
+						></button>
 					</div>
-          <h5 class="text-blue-500 mr-1">
-            Nome:
-            <span class="text-900 lg:text-xl">
-              Lucas Sacramoni Peixoto</span
-            >
-          </h5>
-          <h5 class="text-blue-500 mr-1">
-            Idade:
-            <span class="text-900 lg:text-xl">
-              30 anos</span
-            >
-          </h5>
-          <h5 class="text-blue-500 mr-1">
-            E-mail:
-            <span class="text-900 lg:text-xl">
-              lspeixotodev@gmail.com</span
-            >
-          </h5>
-
-
+					<h5 class="text-blue-500 mr-1">
+						Nome:
+						<span class="text-900 lg:text-xl"> Lucas Sacramoni Peixoto</span>
+					</h5>
+					<h5 class="text-blue-500 mr-1">
+						Idade:
+						<span class="text-900 lg:text-xl"> 30 anos</span>
+					</h5>
+					<h5 class="text-blue-500 mr-1">
+						E-mail:
+						<span class="text-900 lg:text-xl"> lspeixotodev@gmail.com</span>
+					</h5>
 
 					<h5 class="text-blue-500 mr-1">
 						Celular:
@@ -59,17 +59,13 @@
 						</a>
 					</h5>
 					<h5 class="text-blue-500 mr-1">
-            Cidade:
-            <span class="text-900 lg:text-xl">
-              Jundiaí - SP</span
-            >
-          </h5>
-          <h5 class="text-blue-500 mr-1">
-            Ocupação:
-            <span class="text-900 lg:text-xl">
-              Desenvolvedor de sistemas</span
-            >
-          </h5>
+						Cidade:
+						<span class="text-900 lg:text-xl"> Jundiaí - SP</span>
+					</h5>
+					<h5 class="text-blue-500 mr-1">
+						Ocupação:
+						<span class="text-900 lg:text-xl"> Desenvolvedor de sistemas</span>
+					</h5>
 				</div>
 
 				<!-- <div>

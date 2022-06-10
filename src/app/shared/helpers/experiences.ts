@@ -1,17 +1,24 @@
 export const Experiences = [
+  {
+		position: 'Desenvolvedor de Aplicações Pl',
+		company: 'IBM',
+		period: '06/2022 - Atual',
+		tasks:
+			'Atuação como desenvolvedor frontend Angular',
+	},
+  {
+    position: 'Desenvolvedor FullStack',
+    company: 'Freelancer',
+    period: '11/2020 - Atual',
+    tasks:
+      'Atuação como desenvolvedor fullStack em desenvolvimento de sistemas (desktop/web) para automatização de tarefas.',
+  },
 	{
 		position: 'Analista de Sistemas Pl',
 		company: 'Stefanini Brasil',
-		period: '11/2021 - Atual',
+		period: '11/2021 - 05/2022',
 		tasks:
 			'Atuação como desenvolvedor frontend (Angular + PrimeNg), (React + Material UI) em projetos para melhoria de processos internos na Stefanini. Participação em diversos processos de estudo e implementação de novas estruturas e arquiteturasde código para aumentar escalabilidade de projetos e qualidade de código. Os projetos são direcionados para as equipes de recrutamento e seleção,departamento pessoal e comercial.',
-	},
-	{
-		position: 'Desenvolvedor FullStack',
-		company: 'Freelancer',
-		period: '11/2020 - Atual',
-		tasks:
-			'Atuação como desenvolvedor fullStack em desenvolvimento de sistemas (desktop/web) para automatização de tarefas.',
 	},
 	{
 		position: 'Analista de Sistemas Jr',

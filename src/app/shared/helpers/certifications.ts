@@ -1,5 +1,13 @@
 export const Certifications = [
-  {
+	{
+		name: 'Angular Core Deep Dive - Beginner to Advanced',
+		institution: 'Udemy',
+		end: '27/06/2022',
+		url: 'https://www.udemy.com/certificate/UC-28105e46-4a54-4ae4-8904-c23904228f9e/',
+		credential: 'UC-28105e46-4a54-4ae4-8904-c23904228f9e',
+		type: ['angular'],
+	},
+	{
 		name: 'Implement High Fidelity Designs with Material-UI and ReactJS',
 		institution: 'Udemy',
 		end: '09/05/2022',
@@ -7,7 +15,7 @@ export const Certifications = [
 		credential: 'UC-85a7d01c-a627-4734-a5f8-4a32b09fc720',
 		type: ['react'],
 	},
-  {
+	{
 		name: 'Entendendo TypeScript',
 		institution: 'Udemy',
 		end: '02/05/2022',
@@ -15,7 +23,7 @@ export const Certifications = [
 		credential: 'UC-dee17ed6-9ea6-4cd7-938d-eff66907a1b1',
 		type: ['typescript'],
 	},
-  {
+	{
 		name: 'Flutter 2.0: Crie aplicações responsivas para a Web',
 		institution: 'Udemy',
 		end: '04/03/2022',
@@ -23,7 +31,7 @@ export const Certifications = [
 		credential: 'UC-3275270a-caa1-4c07-a939-89e32a8ad99b',
 		type: ['flutter'],
 	},
-  {
+	{
 		name: 'Flutter: Gerenciamento de Estados com Provider',
 		institution: 'Alura',
 		end: '27/02/2022',

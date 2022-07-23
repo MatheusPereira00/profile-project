@@ -8,9 +8,10 @@
 		style="cursor: pointer"
 		id="layout-config-button"
 		class="layout-config-button"
+    [ngClass]="{ 'layout-config-button-active': appMain.configActive }"
 		(click)="onConfigButtonClick($event)"
 	>
-		<i class="pi pi-cog"></i>
+		<i  class="pi pi-cog"></i>
 	</a>
 	<button
 		pButton

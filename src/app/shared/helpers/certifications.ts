@@ -1,5 +1,13 @@
 export const Certifications = [
 	{
+		name: 'Angular Testing Masterclass (Angular 14)',
+		institution: 'Udemy',
+		end: '05/08/2022',
+		url: 'https://www.udemy.com/certificate/UC-2cbc8489-9903-4678-9427-f6e5685652cb/',
+		credential: 'UC-2cbc8489-9903-4678-9427-f6e5685652cb',
+		type: ['angular'],
+	},
+	{
 		name: 'Angular Core Deep Dive - Beginner to Advanced',
 		institution: 'Udemy',
 		end: '27/06/2022',

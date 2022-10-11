@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { FormGroup } from '@angular/forms';
+import { UntypedFormGroup } from '@angular/forms';
 import { TranslocoService } from '@ngneat/transloco';
 
 import { Select } from '../models/select.model';
@@ -11,7 +11,7 @@ export class CommonServices {
 	constructor(private transloco: TranslocoService) {}
 
 	//* Função que valida o email cadastrado
-	validEmail(form: FormGroup): boolean {
+	validEmail(form: UntypedFormGroup): boolean {
 		const field = form.controls.email;
 		let validation = /^[a-z0-9.]+@[a-z0-9]+\.[a-z]+(\.[a-z]+)?$/.test(
 			field.value,

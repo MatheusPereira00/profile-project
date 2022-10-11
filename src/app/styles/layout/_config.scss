@@ -3,9 +3,9 @@
 	top: 0;
 	padding: 0;
 	right: 0;
-	width: 20rem;
+	width: 15rem;
 	z-index: 999;
-	height: 100vh;
+	height: 35vh;
 	transform: translateX(100%);
 	transition: transform $transitionDuration;
 	backface-visibility: hidden;
@@ -29,7 +29,7 @@
 		background-color: var(--primary-color);
 		color: var(--primary-color-text);
 		text-align: center;
-		top: 230px;
+		top: 45vh;
 		left: -45px;
 		z-index: -1;
 		overflow: hidden;
@@ -46,6 +46,10 @@
 			cursor: pointer;
 			transform: rotate(0deg);
 			transition: color $transitionDuration, transform 1s;
+		}
+
+		&.layout-config-button-active {
+			display: none;
 		}
 	}
 

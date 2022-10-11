@@ -6,11 +6,10 @@ import { AppMainComponent } from '@app/app.main.component';
 	templateUrl: './footer.component.html',
 })
 export class FooterComponent {
-
-  currentYear: number
+	currentYear: number;
 
 	constructor(public appMain: AppMainComponent) {
-    let date = new Date();
+		let date = new Date();
 		this.currentYear = date.getFullYear();
-  }
+	}
 }

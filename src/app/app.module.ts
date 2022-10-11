@@ -27,7 +27,6 @@ import { ConfigService } from '@config/services/app.config.service';
 import { MenuService } from '@config/services/app.menu.service';
 import { environment } from '@envs/environment';
 
-
 @NgModule({
 	imports: [
 		BrowserModule,
@@ -39,7 +38,7 @@ import { environment } from '@envs/environment';
 		TranslocoRootModule,
 		SharedCommonModule,
 		PrimeModule,
-    StoreModule.forRoot(reducers),
+		StoreModule.forRoot(reducers),
 		StoreDevtoolsModule.instrument({
 			maxAge: 25,
 			logOnly: environment.production,
@@ -63,7 +62,6 @@ import { environment } from '@envs/environment';
 		MenuService,
 
 		{ provide: LOCALE_ID, useValue: 'pt-BR' },
-
 	],
 	bootstrap: [AppComponent],
 })

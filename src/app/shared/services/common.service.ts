@@ -1,8 +1,7 @@
 import { Injectable } from '@angular/core';
 import { FormGroup } from '@angular/forms';
 import { TranslocoService } from '@ngneat/transloco';
-import * as FileSaver from 'file-saver';
-import * as xlsx from 'xlsx';
+
 import { Select } from '../models/select.model';
 
 @Injectable({
@@ -27,31 +26,6 @@ export class CommonServices {
 	//* Função que formata o objeto para o padrão Base64
 	convertToBase64(item) {
 		return btoa(JSON.stringify(item));
-	}
-
-	//função que transforma as informações da tabela para o formato xls
-	public exportExcel(jsonData: any[], fileName: string): void {
-		const worksheet = xlsx.utils.json_to_sheet(jsonData);
-		const workbook = { Sheets: { data: worksheet }, SheetNames: ['data'] };
-		const excelBuffer: any = xlsx.write(workbook, {
-			bookType: 'xlsx',
-			type: 'array',
-		});
-		this.saveExcelFile(excelBuffer, fileName);
-	}
-
-	//função que salva as informações da tabela para o formato xls
-	private saveExcelFile(buffer: any, fileName: string): void {
-		let EXCEL_TYPE =
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;charset=UTF-8';
-		let EXCEL_EXTENSION = '.xlsx';
-		let date = new Date();
-		let format =
-			'  ' + date.getDate() + ' - ' + date.getHours() + '_' + date.getMinutes();
-		const data: Blob = new Blob([buffer], {
-			type: EXCEL_TYPE,
-		});
-		FileSaver.saveAs(data, fileName + format + EXCEL_EXTENSION);
 	}
 
 	//função para padronizar o retorno dos selects

@@ -24,3 +24,19 @@
 	content: '\2605\2605\2605\2605\2605';
 	color: var(--cyan-500);
 }
+
+.animated-link {
+	&:link,
+	&:visited {
+		text-decoration: none;
+		display: inline-block;
+		background-color: var(--surface-card);
+	}
+
+	&:hover,
+	&:active {
+		box-shadow: 0 1rem 2rem rgba(var(--primary-color-text), 0.4);
+		transform: rotate(-3deg) scale(1.3);
+		transition: all 0.2s;
+	}
+}

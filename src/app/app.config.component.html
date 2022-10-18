@@ -8,9 +8,10 @@
 		style="cursor: pointer"
 		id="layout-config-button"
 		class="layout-config-button"
+    [ngClass]="{ 'layout-config-button-active': appMain.configActive }"
 		(click)="onConfigButtonClick($event)"
 	>
-		<i class="pi pi-cog"></i>
+		<i  class="pi pi-cog"></i>
 	</a>
 	<button
 		pButton
@@ -74,17 +75,23 @@
 
 		<div class="p-formgroup-inline">
 			<h6>Tema</h6>
-			<div class="grid free-themes">
-				<!-- * Light -->
-				<a class="col-3 text-center" (click)="changeTheme('light', false)">
+			<div class="flex flex-row align-items-center">
+				<div class="m-1">
 					<i class="pi pi-sun"></i>
-				</a>
-
-				<!-- * Dark -->
-				<div class="col-3 text-center">
-					<a class="col-3 text-center" (click)="changeTheme('dark', true)">
-						<i class="pi pi-moon"></i>
-					</a>
+				</div>
+				<div class="m-1">
+					<p-inputSwitch
+						[(ngModel)]="config.dark"
+						(onChange)="
+							changeTheme(
+								config.dark ? 'dark' : 'light',
+								config.dark
+							)
+						"
+					></p-inputSwitch>
+				</div>
+				<div class="m-1">
+					<i class="pi pi-moon"></i>
 				</div>
 			</div>
 		</div>

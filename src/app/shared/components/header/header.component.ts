@@ -10,8 +10,7 @@ import { AppMainComponent } from '@app/app.main.component';
 export class HeaderComponent {
 	items: MenuItem[];
 
-	constructor(
-		public appMain: AppMainComponent,
+	activeLanguage: string;
 
-	) {}
+	constructor(public appMain: AppMainComponent) {}
 }

@@ -1,10 +1,10 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
+import { AppConfig } from '@config/models/appconfig';
+import { ConfigService } from '@config/services/app.config.service';
 import { PrimeNGConfig } from 'primeng/api';
 import { Subscription } from 'rxjs';
-import { AppConfig } from '@config/models/appconfig';
 import { AppComponent } from './app.component';
 import { AppMainComponent } from './app.main.component';
-import { ConfigService } from '@config/services/app.config.service';
 
 @Component({
 	selector: 'app-config',
@@ -13,7 +13,7 @@ import { ConfigService } from '@config/services/app.config.service';
 export class AppConfigComponent implements OnInit, OnDestroy {
 	scale: number = 14;
 
-	scales: number[] = [11, 12, 13, 14, 15, 16, 17];
+	scales: number[] = [12, 13, 14, 15, 16];
 
 	config: AppConfig;
 

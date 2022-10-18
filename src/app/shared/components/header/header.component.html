@@ -1,6 +1,4 @@
-<div class="layout-topbar" >
-
-
+<div class="layout-topbar">
 	<a
 		class="p-link layout-menu-button layout-topbar-button"
 		href="#"
@@ -9,8 +7,8 @@
 		<i class="pi pi-bars"></i>
 	</a>
 
-  <a class="p-link mt-3 layout-topbar-title" routerLink="/">
-		<h2 class="text-primary">Lucas Peixoto</h2>
+	<a class="p-link mt-3 layout-topbar-title" routerLink="/">
+		<h2 style="color: var(--text-color)">Lucas Peixoto</h2>
 	</a>
 
 	<a
@@ -27,13 +25,67 @@
 			'layout-topbar-menu-mobile-active': appMain.topMenuActive
 		}"
 	>
-		<a class="p-link layout-topbar-button p-1">
-			<img src="../../../../assets/images/brazil.png"/>
-      <span>Português</span>
+		<h5>Contatos</h5>
+		<a
+			class="p-link layout-topbar-button p-1"
+			href="https://www.linkedin.com/in/lucassacramoni/"
+			target="_blank"
+		>
+			<i class="pi pi-linkedin"></i>
+			<span class="m-2">Linkedin</span>
 		</a>
-		<a class="p-link layout-topbar-button p-1">
-			<img src="../../../../assets/images/usa.png"/>
-			<span>Inglês</span>
+
+		<a
+			class="p-link layout-topbar-button p-1"
+			href="https://www.facebook.com/lucassacramoni/"
+			target="_blank"
+		>
+			<i class="pi pi-facebook"></i>
+			<span class="m-2">Facebook</span>
 		</a>
+
+		<a
+			class="p-link layout-topbar-button p-1"
+			href="https://www.instagram.com/lucas.speixoto/"
+			target="_blank"
+		>
+			<i class="pi pi-instagram"></i>
+			<span class="m-2">Instagram</span>
+		</a>
+
+		<a
+			class="p-link layout-topbar-button p-1"
+			href="https://github.com/lucasspeixoto"
+			target="_blank"
+		>
+			<i class="pi pi-github"></i>
+			<span class="m-2">GitHub</span>
+		</a>
+
+		<a
+			class="p-link layout-topbar-button p-1"
+			href="https://api.whatsapp.com/send?phone=5519982621117&text=Ol%C3%A1%21+Lucas, tudo bem ?&lang=pt_pt"
+			target="_blank"
+		>
+			<i class="pi pi-whatsapp"></i>
+			<span class="m-2">WhatsApp</span>
+		</a>
+
+		<!-- 	<a
+			class="p-link layout-topbar-button p-1"
+			[ngClass]="activeLanguage === 'pt-br' ? 'layout-selected-language' : ''"
+			(click)="languages.setLanguageBr(); updateLanguage()"
+		>
+			<img src="assets/images/brazil.png" alt="brazil" />
+			<span>{{ 'header.portuguese' | transloco }}</span>
+		</a>
+		<a
+			class="p-link layout-topbar-button p-1"
+			[ngClass]="activeLanguage === 'en-us' ? 'layout-selected-language' : ''"
+			(click)="languages.setLanguageEn(); updateLanguage()"
+		>
+			<img src="assets/images/usa.png" alt="usa" />
+			<span>{{ 'header.english' | transloco }}</span>
+		</a> -->
 	</div>
 </div>

@@ -1,12 +1,7 @@
 import { Component } from '@angular/core';
 import { PrimeNGConfig } from 'primeng/api';
 
-
-import { getIsLoading } from '@shared/store/loading/loading.selectors';
-import { getMessage } from '@shared/store/message/message.selectors';
-import { Message } from '@shared/models/message.model';
-import { HandleMessageService } from '@shared/services/handleMessage.service';
-import { LanguagesService } from '@shared/services/languages.service';
+//import { LanguagesService } from '@shared/services/languages.service';
 
 @Component({
 	selector: 'app-root',
@@ -36,20 +31,17 @@ export class AppComponent {
 
 	constructor(
 		private primengConfig: PrimeNGConfig,
-		private languages: LanguagesService,
-	) {}
+	) /* private languages: LanguagesService, */
+	{}
 
 	ngOnInit() {
 		this.setDefaultConfig();
 
-		this.languages.getSelectLanguage();
-
+		//this.languages.getSelectLanguage();
 	}
 
 	setDefaultConfig() {
 		this.primengConfig.ripple = true;
 		document.documentElement.style.fontSize = '14px';
 	}
-
-
 }

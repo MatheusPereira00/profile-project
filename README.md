@@ -3,10 +3,18 @@
 ## Olá!
 
 <p align="left">
-  Eu sou o <b>Lucas</b>, Analista de Sistemas na Stefanini Brasil, atuando com desenvolvedor frontend e especialista em automatização de processos.
+  Eu sou o <b>Lucas</b>, Formado em Engenharia Agrícola pela Universidade Estadual de Campinas (Unicamp), com mestrado em Modelagem Estrutural de Vigas de Madeira Laminada Colada Armada (MLCA).
+
+O primeiro contato com programação veio em 2015, com a linguagem Python.
+
+Já em 2020 iniciando a carreira na área de programação, foram desenvolvidas diversas rotinas de automatização para equipes, com foco em otimização de tempo e redução de mão de obra para envio de e-mails, tratamento de dados e RPAs.
+
+Durante esta experiência como trainee foi iniciado uma especialização no desenvolvimento web, com foco no frontEnd.
+
+Atualmente sigo me especializando no desenvolvimento Web e Mobile com foco em frontend com as ferramentas Angular, React e Flutter.
 </p>
 
-<a href="mailto:lucas.sacramoni@gmail.com" alt="Gmail"><img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=mailto:lucas.sacramoni@gmail.com" /></a>
+<a href="mailto:lspeixotodev@gmail.com" alt="Gmail"><img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=mailto:lspeixotodev@gmail.com" /></a>
 <a href="https://www.linkedin.com/in/lucassacramoni/" alt="Linkedin"><img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=https://https://www.linkedin.com/in/lucassacramoni/" /></a>
 [![GitHub](https://img.shields.io/badge/Github-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/lucasspeixoto)
 

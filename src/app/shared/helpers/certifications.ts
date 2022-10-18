@@ -1,7 +1,15 @@
 export const Certifications = [
+  {
+		name: 'Programação Concorrente e Assíncrona com Python',
+		institution: 'Geek University',
+		end: '17/10/2022',
+		url: 'https://www.udemy.com/certificate/UC-98a60b8c-0f48-4eda-9d78-7036ba835d4b/',
+		credential: 'UC-98a60b8c-0f48-4eda-9d78-7036ba835d4b',
+		type: ['python'],
+	},
 	{
 		name: 'Angular Material In Depth (Angular 14)',
-		institution: 'Udemy',
+		institution: 'Angular University',
 		end: '05/10/2022',
 		url: 'https://www.udemy.com/certificate/UC-d974d38b-0229-4cda-b401-aa66c833f5b6/',
 		credential: 'UC-d974d38b-0229-4cda-b401-aa66c833f5b6',
@@ -9,7 +17,7 @@ export const Certifications = [
 	},
 	{
 		name: 'Angular Testing Masterclass (Angular 14)',
-		institution: 'Udemy',
+		institution: 'Angular University',
 		end: '05/08/2022',
 		url: 'https://www.udemy.com/certificate/UC-2cbc8489-9903-4678-9427-f6e5685652cb/',
 		credential: 'UC-2cbc8489-9903-4678-9427-f6e5685652cb',
@@ -17,7 +25,7 @@ export const Certifications = [
 	},
 	{
 		name: 'Angular Core Deep Dive - Beginner to Advanced',
-		institution: 'Udemy',
+		institution: 'Angular University',
 		end: '27/06/2022',
 		url: 'https://www.udemy.com/certificate/UC-28105e46-4a54-4ae4-8904-c23904228f9e/',
 		credential: 'UC-28105e46-4a54-4ae4-8904-c23904228f9e',

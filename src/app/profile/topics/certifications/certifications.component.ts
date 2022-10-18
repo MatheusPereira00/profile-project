@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Certifications } from '@app/shared/helpers/certifications';
+import { Certifications } from '@shared/helpers/certifications';
 
 interface ICertification {
 	name: string;
@@ -21,6 +21,7 @@ const Filters = [
 	{ name: 'React', code: 'react', logo: 'react_logo' },
 	{ name: 'TypeScript', code: 'typescript', logo: 'typescript_logo' },
 	{ name: 'Flutter', code: 'flutter', logo: 'flutter_logo' },
+  { name: 'Python', code: 'python', logo: 'python_logo' },
 	{ name: 'Git', code: 'git', logo: 'git_logo' },
 	{ name: 'React Native', code: 'react_native', logo: 'react_native_logo' },
 	{ name: 'Node JS', code: 'nodejs', logo: 'node_logo' },

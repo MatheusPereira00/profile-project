@@ -19,10 +19,10 @@ import { AppMenuComponent } from './app.menu.component';
 import { AppMenuitemComponent } from './app.menuitem.component';
 
 import { PrimeModule } from '@shared/modules/prime.module';
-import { TranslocoRootModule } from '@shared/modules/transloco-root.module';
+
 import { SharedCommonModule } from '@shared/modules/shared-common.module';
 
-import { CommonServices } from '@app/shared/services/common.service';
+import { CommonServices } from '@shared/services/common.service';
 import { ConfigService } from '@config/services/app.config.service';
 import { MenuService } from '@config/services/app.menu.service';
 import { environment } from '@envs/environment';
@@ -35,7 +35,6 @@ import { environment } from '@envs/environment';
 		AppRoutingModule,
 		HttpClientModule,
 		BrowserAnimationsModule,
-		TranslocoRootModule,
 		SharedCommonModule,
 		PrimeModule,
 		StoreModule.forRoot(reducers),

@@ -6,7 +6,6 @@ import { RouterModule } from '@angular/router';
 import { FooterComponent } from '@shared/components/footer/footer.component';
 import { HeaderComponent } from '@shared/components/header/header.component';
 import { PrimeModule } from '@shared/modules/prime.module';
-import { TranslocoRootModule } from '@shared/modules/transloco-root.module';
 
 import { AboutMeComponent } from '@app/profile/topics/about-me/about-me.component';
 import { CertificationsComponent } from '@app/profile/topics/certifications/certifications.component';
@@ -36,7 +35,6 @@ import { LoadingComponent } from '@shared/components/loading/loading.component';
 		ReactiveFormsModule,
 		FormsModule,
 		PrimeModule,
-		TranslocoRootModule,
 	],
 
 	exports: [

@@ -1,37 +1,38 @@
 /* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
-	"compileOnSave": false,
-	"compilerOptions": {
-		"baseUrl": "src",
-		"paths": {
-			"@app/*": ["app/*"],
-			"@shared/*": ["app/shared/*"],
-			"@images/*": ["assets/images/*"],
-			"@auth/*": ["app/authentication/*"],
-			"@result/*": ["app/result/*"],
-			"@search/*": ["app/search/*"],
-			"@config/*": ["app/config/*"],
-			"@envs/*": ["environments/*"]
-		},
-		"outDir": "./dist/out-tsc",
-		"forceConsistentCasingInFileNames": true,
-		"strict": false,
-		"noImplicitReturns": true,
-		"noFallthroughCasesInSwitch": true,
-		"sourceMap": true,
-		"declaration": false,
-		"downlevelIteration": true,
-		"experimentalDecorators": true,
-		"moduleResolution": "node",
-		"importHelpers": true,
-		"target": "es2020",
-		"module": "es2020",
-		"lib": ["es2018", "dom"]
-	},
-	"angularCompilerOptions": {
-		"enableI18nLegacyMessageIdFormat": false,
-		"strictInjectionParameters": false,
-		"strictInputAccessModifiers": false,
-		"strictTemplates": false
-	}
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@app/*": ["app/*"],
+      "@shared/*": ["app/shared/*"],
+      "@images/*": ["assets/images/*"],
+      "@auth/*": ["app/authentication/*"],
+      "@result/*": ["app/result/*"],
+      "@search/*": ["app/search/*"],
+      "@config/*": ["app/config/*"],
+      "@envs/*": ["environments/*"]
+    },
+    "outDir": "./dist/out-tsc",
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "es2020",
+    "lib": ["es2018", "dom"],
+    "useDefineForClassFields": false
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": false,
+    "strictInputAccessModifiers": false,
+    "strictTemplates": false
+  }
 }

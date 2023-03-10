@@ -1,55 +1,49 @@
 <div
-	id="layout-config"
-	class="layout-config"
-	[ngClass]="{ 'layout-config-active': appMain.configActive }"
-	(click)="appMain.onConfigClick($event)"
->
-	<a
-		style="cursor: pointer"
-		id="layout-config-button"
-		class="layout-config-button"
+  id="layout-config"
+  class="layout-config"
+  [ngClass]="{ 'layout-config-active': appMain.configActive }"
+  (click)="appMain.onConfigClick($event)">
+  <a
+    style="cursor: pointer"
+    id="layout-config-button"
+    class="layout-config-button"
     [ngClass]="{ 'layout-config-button-active': appMain.configActive }"
-		(click)="onConfigButtonClick($event)"
-	>
-		<i  class="pi pi-cog"></i>
-	</a>
-	<button
-		pButton
-		pRipple
-		type="button"
-		icon="pi pi-times"
-		class="p-button-rounded p-button-danger p-button-text layout-config-close"
-		(click)="onConfigButtonClick($event)"
-	></button>
-	<div class="layout-config-content">
-		<h6 class="mt-0">Escala</h6>
-		<div class="config-scale">
-			<button
-				pButton
-				pRipple
-				type="button"
-				icon="pi pi-minus"
-				(click)="decrementScale()"
-				class="p-button-rounded p-button-text"
-				[disabled]="scale === scales[0]"
-			></button>
-			<i
-				*ngFor="let item of scales"
-				class="pi pi-circle-fill"
-				[ngClass]="{ 'scale-active': item === scale }"
-			></i>
-			<button
-				pButton
-				pRipple
-				type="button"
-				icon="pi pi-plus"
-				(click)="incrementScale()"
-				class="p-button-rounded p-button-text"
-				[disabled]="scale === scales[scales.length - 1]"
-			></button>
-		</div>
+    (click)="onConfigButtonClick($event)">
+    <i class="pi pi-cog"></i>
+  </a>
+  <button
+    pButton
+    pRipple
+    type="button"
+    icon="pi pi-times"
+    class="p-button-rounded p-button-danger p-button-text layout-config-close"
+    (click)="onConfigButtonClick($event)"></button>
+  <div class="layout-config-content">
+    <h6 class="mt-0">Escala</h6>
+    <div class="config-scale">
+      <button
+        pButton
+        pRipple
+        type="button"
+        icon="pi pi-minus"
+        (click)="decrementScale()"
+        class="p-button-rounded p-button-text"
+        [disabled]="scale === scales[0]"></button>
+      <i
+        *ngFor="let item of scales"
+        class="pi pi-circle-fill"
+        [ngClass]="{ 'scale-active': item === scale }"></i>
+      <button
+        pButton
+        pRipple
+        type="button"
+        icon="pi pi-plus"
+        (click)="incrementScale()"
+        class="p-button-rounded p-button-text"
+        [disabled]="scale === scales[scales.length - 1]"></button>
+    </div>
 
-		<!-- <h6>Estilo de Inputs</h6>
+    <!-- <h6>Estilo de Inputs</h6>
 		<div class="p-formgroup-inline">
 			<div class="field-radiobutton">
 				<p-radioButton
@@ -73,27 +67,23 @@
 			</div>
 		</div> -->
 
-		<div class="p-formgroup-inline">
-			<h6>Tema</h6>
-			<div class="flex flex-row align-items-center">
-				<div class="m-1">
-					<i class="pi pi-sun"></i>
-				</div>
-				<div class="m-1">
-					<p-inputSwitch
-						[(ngModel)]="config.dark"
-						(onChange)="
-							changeTheme(
-								config.dark ? 'dark' : 'light',
-								config.dark
-							)
-						"
-					></p-inputSwitch>
-				</div>
-				<div class="m-1">
-					<i class="pi pi-moon"></i>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="p-formgroup-inline">
+      <h6>Tema</h6>
+      <div class="flex flex-row align-items-center">
+        <div class="m-1">
+          <i class="pi pi-sun"></i>
+        </div>
+        <div class="m-1">
+          <p-inputSwitch
+            [(ngModel)]="config.dark"
+            (onChange)="
+              changeTheme(config.dark ? 'dark' : 'light', config.dark)
+            "></p-inputSwitch>
+        </div>
+        <div class="m-1">
+          <i class="pi pi-moon"></i>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

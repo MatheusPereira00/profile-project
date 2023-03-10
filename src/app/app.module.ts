@@ -2,7 +2,7 @@ import { LOCALE_ID, NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
-import { LocationStrategy, HashLocationStrategy } from '@angular/common';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 
@@ -28,40 +28,39 @@ import { MenuService } from '@config/services/app.menu.service';
 import { environment } from '@envs/environment';
 
 @NgModule({
-	imports: [
-		BrowserModule,
-		FormsModule,
-		ReactiveFormsModule,
-		AppRoutingModule,
-		HttpClientModule,
-		BrowserAnimationsModule,
-		SharedCommonModule,
-		PrimeModule,
-		StoreModule.forRoot(reducers),
-		StoreDevtoolsModule.instrument({
-			maxAge: 25,
-			logOnly: environment.production,
-		}),
-		StoreRouterConnectingModule.forRoot({
-			stateKey: 'router',
-			routerState: RouterState.Minimal,
-		}),
-	],
-	declarations: [
-		AppComponent,
-		AppMainComponent,
-		AppConfigComponent,
-		AppMenuComponent,
-		AppMenuitemComponent,
-	],
-	providers: [
-		{ provide: LocationStrategy, useClass: HashLocationStrategy },
-		CommonServices,
-		ConfigService,
-		MenuService,
-
-		{ provide: LOCALE_ID, useValue: 'pt-BR' },
-	],
-	bootstrap: [AppComponent],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
+    AppRoutingModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
+    SharedCommonModule,
+    PrimeModule,
+    StoreModule.forRoot(reducers),
+    StoreDevtoolsModule.instrument({
+      maxAge: 25,
+      logOnly: environment.production,
+    }),
+    StoreRouterConnectingModule.forRoot({
+      stateKey: 'router',
+      routerState: RouterState.Minimal,
+    }),
+  ],
+  declarations: [
+    AppComponent,
+    AppMainComponent,
+    AppConfigComponent,
+    AppMenuComponent,
+    AppMenuitemComponent,
+  ],
+  providers: [
+    { provide: LocationStrategy, useClass: HashLocationStrategy },
+    CommonServices,
+    ConfigService,
+    MenuService,
+    { provide: LOCALE_ID, useValue: 'pt-BR' },
+  ],
+  bootstrap: [AppComponent],
 })
 export class AppModule {}

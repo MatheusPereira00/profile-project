@@ -16,38 +16,21 @@ import { SkillsComponent } from '@app/profile/topics/skills/skills.component';
 import { ErrorMessageComponent } from '@shared/components/error-message/error-message.component';
 import { LoadingComponent } from '@shared/components/loading/loading.component';
 
+const COMPONENTS = [
+  HeaderComponent,
+  FooterComponent,
+  LoadingComponent,
+  PersonalComponent,
+  AboutMeComponent,
+  ExperiencesComponent,
+  CertificationsComponent,
+  FormationsComponent,
+  SkillsComponent,
+  ErrorMessageComponent,
+];
 @NgModule({
-	declarations: [
-		HeaderComponent,
-		FooterComponent,
-		LoadingComponent,
-    PersonalComponent,
-		AboutMeComponent,
-		ExperiencesComponent,
-		CertificationsComponent,
-		FormationsComponent,
-		SkillsComponent,
-		ErrorMessageComponent,
-	],
-	imports: [
-		CommonModule,
-		RouterModule,
-		ReactiveFormsModule,
-		FormsModule,
-		PrimeModule,
-	],
-
-	exports: [
-		HeaderComponent,
-		FooterComponent,
-		LoadingComponent,
-    PersonalComponent,
-		AboutMeComponent,
-		ExperiencesComponent,
-		CertificationsComponent,
-		FormationsComponent,
-		SkillsComponent,
-		ErrorMessageComponent,
-	],
+  declarations: [...COMPONENTS],
+  imports: [CommonModule, RouterModule, ReactiveFormsModule, FormsModule, PrimeModule],
+  exports: [...COMPONENTS],
 })
 export class SharedCommonModule {}

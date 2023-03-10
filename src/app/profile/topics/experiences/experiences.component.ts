@@ -2,23 +2,21 @@ import { Component, OnInit } from '@angular/core';
 import { Experiences } from '@app/shared/helpers/experiences';
 
 interface IExperience {
-	position: string;
-	company: string;
-	period: string;
-	tasks: string;
+  position: string;
+  company: string;
+  period: string;
+  tasks: string;
 }
 
 @Component({
-	selector: 'app-experiences',
-	templateUrl: './experiences.component.html',
-	styles: [''],
+  selector: 'app-experiences',
+  templateUrl: './experiences.component.html',
+  styles: [''],
 })
 export class ExperiencesComponent implements OnInit {
-	experiences: IExperience[];
+  public experiences: IExperience[];
 
-	constructor() {}
-
-	ngOnInit() {
-		this.experiences = Experiences;
-	}
+  public ngOnInit(): void {
+    this.experiences = Experiences;
+  }
 }

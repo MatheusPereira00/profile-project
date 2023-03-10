@@ -1,4 +1,4 @@
 export interface Tutorial {
-	header: string;
-	content: string;
+  header: string;
+  content: string;
 }

@@ -4,13 +4,13 @@ import { MenuItem } from 'primeng/api';
 import { AppMainComponent } from '@app/app.main.component';
 
 @Component({
-	selector: 'app-topbar',
-	templateUrl: './header.component.html',
+  selector: 'app-topbar',
+  templateUrl: './header.component.html',
 })
 export class HeaderComponent {
-	items: MenuItem[];
+  public items: MenuItem[];
 
-	activeLanguage: string;
+  public activeLanguage: string;
 
-	constructor(public appMain: AppMainComponent) {}
+  constructor(public appMain: AppMainComponent) {}
 }

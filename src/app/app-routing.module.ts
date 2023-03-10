@@ -11,49 +11,49 @@ import { CertificationsComponent } from './profile/topics/certifications/certifi
 import { ProjectsComponent } from './profile/topics/projects/projects.component';
 
 @NgModule({
-	imports: [
-		RouterModule.forRoot(
-			[
-				{
-					path: '',
-					component: AppMainComponent,
-					children: [
-						{
-							path: '',
-							component: PersonalComponent,
-						},
-						{
-							path: 'cv/sobre-min',
-							component: AboutMeComponent,
-						},
-						{
-							path: 'cv/experiencias',
-							component: ExperiencesComponent,
-						},
-						{
-							path: 'cv/certificacoes',
-							component: CertificationsComponent,
-						},
-						{
-							path: 'cv/formacoes',
-							component: FormationsComponent,
-						},
-						{
-							path: 'cv/competencias',
-							component: SkillsComponent,
-						},
-						{
-							path: 'cv/projetos',
-							component: ProjectsComponent,
-						},
-					],
-				},
+  imports: [
+    RouterModule.forRoot(
+      [
+        {
+          path: '',
+          component: AppMainComponent,
+          children: [
+            {
+              path: '',
+              component: PersonalComponent,
+            },
+            {
+              path: 'cv/sobre-min',
+              component: AboutMeComponent,
+            },
+            {
+              path: 'cv/experiencias',
+              component: ExperiencesComponent,
+            },
+            {
+              path: 'cv/certificacoes',
+              component: CertificationsComponent,
+            },
+            {
+              path: 'cv/formacoes',
+              component: FormationsComponent,
+            },
+            {
+              path: 'cv/competencias',
+              component: SkillsComponent,
+            },
+            {
+              path: 'cv/projetos',
+              component: ProjectsComponent,
+            },
+          ],
+        },
 
-				{ path: '**', redirectTo: '' },
-			],
-			{ scrollPositionRestoration: 'enabled', anchorScrolling: 'enabled' },
-		),
-	],
-	exports: [RouterModule],
+        { path: '**', redirectTo: '' },
+      ],
+      { scrollPositionRestoration: 'enabled', anchorScrolling: 'enabled' }
+    ),
+  ],
+  exports: [RouterModule],
 })
 export class AppRoutingModule {}

@@ -1,30 +1,32 @@
+/* eslint-disable @typescript-eslint/explicit-function-return-type */
+/* eslint-disable no-undef */
 import { Action, createReducer, on } from '@ngrx/store';
 import { StartLoading, StopLoading } from './loading.actions';
 
 export interface LoadingState {
-	isLoading: boolean;
+  isLoading: boolean;
 }
 
 const initialState: LoadingState = { isLoading: false };
 
 const _loadingReducer = createReducer(
-	initialState,
+  initialState,
 
-	on(StartLoading, () => {
-		return {
-			isLoading: true,
-		};
-	}),
+  on(StartLoading, () => {
+    return {
+      isLoading: true,
+    };
+  }),
 
-	on(StopLoading, () => {
-		return {
-			isLoading: false,
-		};
-	}),
+  on(StopLoading, () => {
+    return {
+      isLoading: false,
+    };
+  })
 );
 
 export function loadingReducer(state: LoadingState, action: Action) {
-	return _loadingReducer(state, action);
+  return _loadingReducer(state, action);
 }
 
 export const getIsLoading = (state: LoadingState) => state.isLoading;

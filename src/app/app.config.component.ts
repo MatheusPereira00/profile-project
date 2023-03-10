@@ -7,90 +7,90 @@ import { AppComponent } from './app.component';
 import { AppMainComponent } from './app.main.component';
 
 @Component({
-	selector: 'app-config',
-	templateUrl: './app.config.component.html',
+  selector: 'app-config',
+  templateUrl: './app.config.component.html',
 })
 export class AppConfigComponent implements OnInit, OnDestroy {
-	scale: number = 14;
+  public scale = 14;
 
-	scales: number[] = [12, 13, 14, 15, 16];
+  public scales: number[] = [12, 13, 14, 15, 16];
 
-	config: AppConfig;
+  public config: AppConfig;
 
-	subscription: Subscription;
+  public subscription: Subscription;
 
-	constructor(
-		public app: AppComponent,
-		public appMain: AppMainComponent,
-		public configService: ConfigService,
-		public primengConfig: PrimeNGConfig,
-	) {}
+  constructor(
+    public app: AppComponent,
+    public appMain: AppMainComponent,
+    public configService: ConfigService,
+    public primengConfig: PrimeNGConfig
+  ) {}
 
-	ngOnInit() {
-		this.config = this.configService.config;
-		this.changeTheme(this.config.theme, this.config.dark); //* Setar tema caso ultimo não seja o default
-		this.subscription = this.configService.configUpdate$.subscribe(config => {
-			this.config = config;
-			this.scale = 14;
+  public ngOnInit(): void {
+    this.config = this.configService.config;
+    this.changeTheme(this.config.theme, this.config.dark); //* Setar tema caso ultimo não seja o default
+    this.subscription = this.configService.configUpdate$.subscribe(config => {
+      this.config = config;
+      this.scale = 14;
 
-			this.applyScale();
+      this.applyScale();
 
-			this.setConfigLocally(this.config);
-		});
-	}
+      this.setConfigLocally(this.config);
+    });
+  }
 
-	onConfigButtonClick(event) {
-		this.appMain.configActive = !this.appMain.configActive;
-		this.appMain.configClick = true;
-		event.preventDefault();
-	}
+  public onConfigButtonClick(event: Event): void {
+    this.appMain.configActive = !this.appMain.configActive;
+    this.appMain.configClick = true;
+    event.preventDefault();
+  }
 
-	incrementScale() {
-		this.scale++;
-		this.applyScale();
-	}
+  public incrementScale(): void {
+    this.scale++;
+    this.applyScale();
+  }
 
-	decrementScale() {
-		this.scale--;
-		this.applyScale();
-	}
+  public decrementScale(): void {
+    this.scale--;
+    this.applyScale();
+  }
 
-	applyScale() {
-		document.documentElement.style.fontSize = this.scale + 'px';
-	}
+  public applyScale(): void {
+    document.documentElement.style.fontSize = this.scale + 'px';
+  }
 
-	onRippleChange(ripple) {
-		this.primengConfig.ripple = ripple;
-		this.configService.updateConfig({ ...this.config, ...{ ripple } });
-		this.setConfigLocally({
-			...this.config,
-			ripple,
-		});
-	}
+  public onRippleChange(ripple): void {
+    this.primengConfig.ripple = ripple;
+    this.configService.updateConfig({ ...this.config, ...{ ripple } });
+    this.setConfigLocally({
+      ...this.config,
+      ripple,
+    });
+  }
 
-	onInputStyleChange() {
-		this.configService.updateConfig(this.config);
-		this.setConfigLocally(this.config);
-	}
+  public onInputStyleChange(): void {
+    this.configService.updateConfig(this.config);
+    this.setConfigLocally(this.config);
+  }
 
-	changeTheme(theme: string, dark: boolean) {
-		let themeElement = document.getElementById('theme-css');
-		themeElement.setAttribute('href', 'assets/theme/' + theme + '/theme.css');
-		this.configService.updateConfig({ ...this.config, ...{ theme, dark } });
-		this.setConfigLocally({
-			...this.config,
-			dark,
-			theme,
-		});
-	}
+  public changeTheme(theme: string, dark: boolean): void {
+    const themeElement = document.getElementById('theme-css');
+    themeElement.setAttribute('href', 'assets/theme/' + theme + '/theme.css');
+    this.configService.updateConfig({ ...this.config, ...{ theme, dark } });
+    this.setConfigLocally({
+      ...this.config,
+      dark,
+      theme,
+    });
+  }
 
-	setConfigLocally(config: AppConfig) {
-		localStorage.setItem('@lspeixoto: config', JSON.stringify(config));
-	}
+  public setConfigLocally(config: AppConfig): void {
+    localStorage.setItem('@lspeixoto: config', JSON.stringify(config));
+  }
 
-	ngOnDestroy() {
-		if (this.subscription) {
-			this.subscription.unsubscribe();
-		}
-	}
+  public ngOnDestroy(): void {
+    if (this.subscription) {
+      this.subscription.unsubscribe();
+    }
+  }
 }

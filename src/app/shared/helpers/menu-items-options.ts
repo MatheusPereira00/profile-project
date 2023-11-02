@@ -29,11 +29,6 @@ export const menuItems: MenuItems[] = [
         icon: 'pi pi-list',
         routerLink: ['cv', 'competencias'],
       },
-      /* {
-				label: 'Projetos',
-				icon: 'pi pi-user-edit',
-				routerLink: ['cv', 'projetos'],
-			}, */
     ],
   },
   {

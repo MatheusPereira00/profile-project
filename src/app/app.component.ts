@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PrimeNGConfig } from 'primeng/api';
 
-//import { LanguagesService } from '@shared/services/languages.service';
-
 @Component({
   selector: 'app-root',
   template: `
@@ -25,14 +23,10 @@ export class AppComponent implements OnInit {
 
   public config: any;
 
-  constructor(
-    private primengConfig: PrimeNGConfig /* private languages: LanguagesService, */
-  ) {}
+  constructor(private primengConfig: PrimeNGConfig) {}
 
   public ngOnInit(): void {
     this.setDefaultConfig();
-
-    //this.languages.getSelectLanguage();
   }
 
   public setDefaultConfig(): void {

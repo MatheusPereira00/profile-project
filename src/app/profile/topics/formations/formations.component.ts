@@ -4,7 +4,6 @@ import { Formations } from '@app/shared/helpers/formations';
 interface IFormation {
   name: string;
   institution: string;
-  end: string;
   url?: string;
   credential?: string;
 }

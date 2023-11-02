@@ -3,29 +3,29 @@ import { AppConfig } from '@config/models/appconfig';
 import { Subject } from 'rxjs';
 
 const defaultConfig = {
-	theme: 'dark',
-	dark: true,
-	inputStyle: 'outlined',
-	ripple: true,
+  theme: 'dark',
+  dark: true,
+  inputStyle: 'outlined',
+  ripple: true,
 };
 
 @Injectable({
-	providedIn: 'root',
+  providedIn: 'root',
 })
 export class ConfigService {
-	config: AppConfig =
-		JSON.parse(localStorage.getItem('@lspeixoto: config')) || defaultConfig;
+  config: AppConfig =
+    JSON.parse(localStorage.getItem('@lspereira: config')) || defaultConfig;
 
-	private configUpdate = new Subject<AppConfig>();
+  private configUpdate = new Subject<AppConfig>();
 
-	configUpdate$ = this.configUpdate.asObservable();
+  public configUpdate$ = this.configUpdate.asObservable();
 
-	updateConfig(config: AppConfig) {
-		this.config = config;
-		this.configUpdate.next(config);
-	}
+  public updateConfig(config: AppConfig) {
+    this.config = config;
+    this.configUpdate.next(config);
+  }
 
-	getConfig() {
-		return this.config;
-	}
+  getConfig() {
+    return this.config;
+  }
 }

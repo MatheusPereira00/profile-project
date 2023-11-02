@@ -85,7 +85,7 @@ export class AppConfigComponent implements OnInit, OnDestroy {
   }
 
   public setConfigLocally(config: AppConfig): void {
-    localStorage.setItem('@lspeixoto: config', JSON.stringify(config));
+    localStorage.setItem('@lspereira: config', JSON.stringify(config));
   }
 
   public ngOnDestroy(): void {

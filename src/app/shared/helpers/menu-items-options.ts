@@ -20,11 +20,6 @@ export const menuItems: MenuItems[] = [
         routerLink: ['cv', 'experiencias'],
       },
       {
-        label: 'Certificações',
-        icon: 'pi pi-book',
-        routerLink: ['cv', 'certificacoes'],
-      },
-      {
         label: 'Formações',
         icon: 'pi pi-home',
         routerLink: ['cv', 'formacoes'],
@@ -47,33 +42,13 @@ export const menuItems: MenuItems[] = [
       {
         label: 'Linkedin',
         icon: 'pi pi-linkedin',
-        url: ['https://www.linkedin.com/in/lucassacramoni/'],
-        target: '_blank',
-      },
-      {
-        label: 'Facebook',
-        icon: 'pi pi-facebook',
-        url: ['https://www.facebook.com/lucassacramoni/'],
-        target: '_blank',
-      },
-      {
-        label: 'Instagram',
-        icon: 'pi pi-instagram',
-        url: ['https://www.instagram.com/lucas.speixoto/'],
+        url: ['https://www.linkedin.com/in/matheuspereira00/'],
         target: '_blank',
       },
       {
         label: 'GitHub',
         icon: 'pi pi-github',
-        url: ['https://github.com/lucasspeixoto'],
-        target: '_blank',
-      },
-      {
-        label: 'WhatsApp',
-        icon: 'pi pi-whatsapp',
-        url: [
-          'https://api.whatsapp.com/send?phone=5519982621117&text=Ol%C3%A1%21+Lucas, tudo bem ?&lang=pt_pt',
-        ],
+        url: ['https://github.com/MatheusPereira00'],
         target: '_blank',
       },
     ],

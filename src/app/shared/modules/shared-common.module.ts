@@ -8,7 +8,6 @@ import { HeaderComponent } from '@shared/components/header/header.component';
 import { PrimeModule } from '@shared/modules/prime.module';
 
 import { AboutMeComponent } from '@app/profile/topics/about-me/about-me.component';
-import { CertificationsComponent } from '@app/profile/topics/certifications/certifications.component';
 import { ExperiencesComponent } from '@app/profile/topics/experiences/experiences.component';
 import { FormationsComponent } from '@app/profile/topics/formations/formations.component';
 import { PersonalComponent } from '@app/profile/topics/personal/personal.component';
@@ -23,7 +22,6 @@ const COMPONENTS = [
   PersonalComponent,
   AboutMeComponent,
   ExperiencesComponent,
-  CertificationsComponent,
   FormationsComponent,
   SkillsComponent,
   ErrorMessageComponent,

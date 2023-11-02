@@ -1,7 +1,8 @@
 export const Paragraphs = [
-  'Formado em Engenharia Agrícola pela Universidade Estadual de Campinas (Unicamp), com mestrado em Modelagem Estrutural de Vigas de Madeira Laminada Colada Armada (MLCA). ',
+  'Cursando Ciência da Computação na Universidade Nove de Julho (Uninove)',
   'O primeiro contato com programação veio em 2015, com a linguagem Python.',
-  'Já em 2020 iniciando a carreira na área de programação, foram desenvolvidas diversas rotinas de automatização para equipes, com foco em otimização de tempo e redução de mão de obra para envio de e-mails, tratamento de dados e RPAs.',
-  'Durante esta experiência como trainee foi iniciado uma especialização no desenvolvimento web, com foco no frontEnd.',
-  'Atualmente sigo me especializando no desenvolvimento Web e Mobile com foco em frontend com as ferramentas Angular, React e Flutter.',
+  'Já em 2022 iniciando a carreira na área de programação, comecei como',
+  'estagiario na IBM, e durante esta experiência iniciei uma especialização',
+  'no desenvolvimento web, com foco no frontEnd e backEnd. Atualmente sigo me',
+  'especializando em Java, Angular, Spring Boot e Quarkus',
 ];

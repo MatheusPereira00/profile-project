@@ -3,7 +3,7 @@
 ## Olá!
 
 <p align="left">
-  Eu sou o <b>Lucas</b>, Formado em Engenharia Agrícola pela Universidade Estadual de Campinas (Unicamp), com mestrado em Modelagem Estrutural de Vigas de Madeira Laminada Colada Armada (MLCA).
+  Eu sou o <b>Matheus</b>, Formado em Engenharia Agrícola pela Universidade Estadual de Campinas (Unicamp), com mestrado em Modelagem Estrutural de Vigas de Madeira Laminada Colada Armada (MLCA).
 
 O primeiro contato com programação veio em 2015, com a linguagem Python.
 
@@ -14,9 +14,9 @@ Durante esta experiência como trainee foi iniciado uma especialização no dese
 Atualmente sigo me especializando no desenvolvimento Web e Mobile com foco em frontend com as ferramentas Angular, React e Flutter.
 </p>
 
-<a href="mailto:lspeixotodev@gmail.com" alt="Gmail"><img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=mailto:lspeixotodev@gmail.com" /></a>
-<a href="https://www.linkedin.com/in/lucassacramoni/" alt="Linkedin"><img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=https://https://www.linkedin.com/in/lucassacramoni/" /></a>
-[![GitHub](https://img.shields.io/badge/Github-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/lucasspeixoto)
+<a href="mailto:lspereiradev@gmail.com" alt="Gmail"><img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=mailto:lspereiradev@gmail.com" /></a>
+<a href="https://www.linkedin.com/in/MatheusPereira/" alt="Linkedin"><img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=https://https://www.linkedin.com/in/MatheusPereira/" /></a>
+[![GitHub](https://img.shields.io/badge/Github-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/Matheusspereira)
 
 <br>
 

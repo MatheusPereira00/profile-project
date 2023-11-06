@@ -3,7 +3,8 @@ export const Skills = [
   'Desenvolvimento Front-end: Angular, ReactJS, TypeScript, JavaScript, Angular Material, PrimeNg, Primeflex, Material UI, CSS e HTML;',
   'Desenvolvimento Back-end: Spring Boot, NodeJs;',
   'Controle de versão: GIT;',
-  'Banco de Dados: Oracle;',
+  'Banco de Dados: Oracle, MySQL, PostgreSQL;',
   'Em aprendizado: Desenvolvimento de Rest Api`s com Spring Boot;',
-  'Espanhol: Leitura, escrita, compreensão e comunicação oral razoáveis.',
+  'Espanhol: Leitura, escrita compreensão e comunicação oral - razoáveis.',
+  'inglês: Leitura, escrita - razoáveis.',
 ];
